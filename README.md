@@ -37,3 +37,19 @@ What I Did
         Update: Modify name and marks by ID.
 
     Used Java Scanner for user input and ArrayList for data storage (in-memory).
+
+# Day3
+What I Did
+    Created a Library Management System in Java using a menu-driven console-style structure.
+    Applied OOP concepts: abstraction, inheritance, polymorphism, constructors, and method overriding.
+    Implemented core features:
+
+        Add: Add new books to the library.
+
+        Issue: Issue a book to a user by ISBN.
+
+        Return: Return a previously issued book.
+
+        Display: Show all book details (title, author, ISBN, issued status).
+
+    Used Java ArrayList to store books.
