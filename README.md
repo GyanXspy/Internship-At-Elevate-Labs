@@ -53,3 +53,36 @@ What I Did
         Display: Show all book details (title, author, ISBN, issued status).
 
     Used Java ArrayList to store books.
+
+# Day 4
+    The program uses Java to demonstrate basic file handling with reading and writing.
+
+    It starts by creating a Scanner object to take user input from the console.
+
+    A FileWriter object is created in append mode, so new data is added without deleting existing content in the file D:\FileHandlingInJavaEX\WriteFile.txt.
+
+    Inside a try-catch-finally block:
+
+        It prompts the user to enter some text.
+
+        The entered text is written to the file using FileWriter.write().
+
+        If any error occurs, it's caught and printed.
+
+        The FileWriter is closed in the finally block to save changes and release resources.
+
+        After writing, a FileReader is used to open and read the file.
+
+    Inside another try-catch-finally block:
+
+        It reads each character from the file one by one using a loop.
+
+        The characters are printed to the console.
+
+        Any reading error is caught and printed.
+
+        The FileReader is closed in the finally block.
+
+    Finally, the Scanner object is closed to free system resources.
+
+    The program ensures proper exception handling and resource management for file operations.
