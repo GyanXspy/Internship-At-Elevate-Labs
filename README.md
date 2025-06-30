@@ -86,3 +86,36 @@ What I Did
     Finally, the Scanner object is closed to free system resources.
 
     The program ensures proper exception handling and resource management for file operations.
+
+# Day5
+
+This Java program simulates a simple bank account system.
+
+    What it does:
+
+        It creates an Account class that maintains a balance and a list of transaction history.
+
+        The class has methods to deposit money, withdraw money, and check the current balance.
+
+        All transactions (deposit and withdraw) are recorded in the transaction history list.
+
+        The program starts by depositing ₹6000, withdrawing ₹200, and then depositing ₹150.
+
+        It prints the current balance and the entire transaction history.
+
+    Key features:
+
+        Uses ArrayList to store transaction history.
+
+        Applies basic validation (e.g., no withdrawal if balance is insufficient).
+
+        Demonstrates object-oriented programming concepts like encapsulation.
+
+        All data members are private and accessed through public methods.
+    
+    Output:
+        Current Balance: 5950.0
+        Transaction History:
+        Deposited: 6000.0
+        Withdrew: 200.0
+        Deposited: 150.0
