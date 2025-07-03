@@ -119,3 +119,36 @@ This Java program simulates a simple bank account system.
         Deposited: 6000.0
         Withdrew: 200.0
         Deposited: 150.0
+
+# Day 6
+Created a GUI-based To-Do List application using Java Swing.
+
+    Used JFrame, JList, JTextField, JButton, and layout managers for the interface.
+
+    Implemented:
+
+        Add task functionality using an input field and button.
+
+        Delete selected task functionality from the list.
+
+    Used DefaultListModel for dynamic task management.
+
+    Organized layout using BorderLayout and JPanel.
+
+# Day 7
+Employee Management System (Java + JDBC + MySQL)
+    Built a menu-driven CRUD application for managing employee records.
+
+    Connected Java to MySQL database using JDBC.
+
+    Created and managed employees table with fields like name, email, department, salary, etc.
+
+    Implemented:
+
+        Add, View (All / By ID / By Department), Update, and Delete employee records.
+
+    Used PreparedStatement, ResultSet, and try-with-resources for secure and efficient DB access.
+
+    Replaced rs.beforeFirst() with a boolean found flag to avoid cursor issues.
+
+    Handled SQL exceptions, duplicate entries, and invalid inputs gracefully.
