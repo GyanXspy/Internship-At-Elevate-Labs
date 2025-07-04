@@ -152,3 +152,16 @@ Employee Management System (Java + JDBC + MySQL)
     Replaced rs.beforeFirst() with a boolean found flag to avoid cursor issues.
 
     Handled SQL exceptions, duplicate entries, and invalid inputs gracefully.
+
+# Day8
+QuizApp - Java Console Quiz Application
+    This is a simple Java console-based quiz application. It presents a set of multiple-choice questions to the user, accepts their input, and calculates the final score.
+
+    Features:
+        Displays questions with 4 answer options.
+
+        Accepts user input and checks answers.
+
+        Calculates and displays the final score.
+
+    Built using Java Collections, OOP concepts and Scanner for input.
